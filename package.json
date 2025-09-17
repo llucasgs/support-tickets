@@ -1,0 +1,12 @@
+{
+  "name": "support-tickets",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de tickets de suporte técnico. Poderemos solicitar um suporte com a abertura de um ticket, filtrar o andamento do serviço de acordo com seu status, editar informações do próprio ticket e fechá-lo ou excluí-lo.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Lucas Garcia e Silva",
+  "license": "ISC"
+}
