@@ -1,4 +1,5 @@
 import http from "node:http";
+import { jsonHandler } from "./middlewares/jsonHandler.js";
 
 /* Essa é uma forma de criar um servidor.
 const server = http.createServer((request, response) => {
@@ -9,8 +10,8 @@ server.listen(3333);
 
 // Há uma outra forma mais resumida abaixo.
 
-function listener(request, response) {
-  // Função a ser executada.
+async function listener(request, response) {
+  await jsonHandler(request, response);
 }
 
 http.createServer(listener).listen(3333);
