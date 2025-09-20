@@ -19,6 +19,7 @@ export class Database {
     fs.writeFile(DATABASE_PATH, JSON.stringify(this.#database));
   }
 
+  // Método para inserir
   insert(table, data) {
     if (Array.isArray(this.#database[table])) {
       this.#database[table].push(data);
@@ -26,5 +27,11 @@ export class Database {
       this.#database[table] = [data];
     }
     this.#persist();
+  }
+
+  // Método para selecionar e listar
+  select(table) {
+    let data = this.#database[table] ?? [];
+    return data;
   }
 }
