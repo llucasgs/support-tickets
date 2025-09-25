@@ -30,8 +30,15 @@ export class Database {
   }
 
   // Método para selecionar e listar
-  select(table) {
+  select(table, filters) {
     let data = this.#database[table] ?? [];
+    if (filters) {
+      data = data.filter((row) => {
+        return Object.entries(filters).some(([Key, value]) => {
+          return row[Key].toLowerCase().includes(value.toLowerCase());
+        });
+      });
+    }
     return data;
   }
 }
