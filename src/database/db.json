@@ -1,1 +1,49 @@
-{"tickets":[{"id":"b46c7180-ed51-4b0a-a3e7-c61676567c0f","equipment":"Computador","description":"Computador não liga.","user_name":"Lucas Garcia e Silva","status":"open","created_at":"2025-09-19T23:14:13.420Z","updated_at":"2025-09-19T23:14:13.420Z"},{"id":"f1d50133-ff9a-4480-a5fb-a4c7f712f955","equipment":"Computador","description":"Computador não liga.","user_name":"Lucas Garcia e Silva","status":"open","created_at":"2025-09-19T23:39:51.864Z","updated_at":"2025-09-19T23:39:51.864Z"},{"id":"b8421ba4-7aaf-4d3c-88a5-2ac1cb141ce7","equipment":"Computador","description":"Computador não liga.","user_name":"Lucas Garcia e Silva","status":"open","created_at":"2025-09-20T00:48:22.677Z","updated_at":"2025-09-20T00:48:22.677Z"},{"id":"7a5a1329-7c2a-404f-b85b-6645196e7a2d","equipment":"Computador","description":"Computador não liga.","user_name":"Lucas Garcia e Silva","status":"open","created_at":"2025-09-20T03:36:02.483Z","updated_at":"2025-09-20T03:36:02.483Z"},{"id":"5575d387-33c7-41a8-86db-c2341b2e5c6f","equipment":"Computador","description":"Computador não liga.","user_name":"Lucas Garcia e Silva","status":"open","created_at":"2025-09-20T03:36:05.393Z","updated_at":"2025-09-20T03:36:05.393Z"}]}
+{
+  "tickets": [
+    {
+      "id": "b46c7180-ed51-4b0a-a3e7-c61676567c0f",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Lucas Garcia e Silva",
+      "status": "open",
+      "created_at": "2025-09-19T23:14:13.420Z",
+      "updated_at": "2025-09-19T23:14:13.420Z"
+    },
+    {
+      "id": "f1d50133-ff9a-4480-a5fb-a4c7f712f955",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Lucas Garcia e Silva",
+      "status": "open",
+      "created_at": "2025-09-19T23:39:51.864Z",
+      "updated_at": "2025-09-19T23:39:51.864Z"
+    },
+    {
+      "id": "b8421ba4-7aaf-4d3c-88a5-2ac1cb141ce7",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Lucas Garcia e Silva",
+      "status": "open",
+      "created_at": "2025-09-20T00:48:22.677Z",
+      "updated_at": "2025-09-20T00:48:22.677Z"
+    },
+    {
+      "id": "7a5a1329-7c2a-404f-b85b-6645196e7a2d",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Lucas Garcia e Silva",
+      "status": "open",
+      "created_at": "2025-09-20T03:36:02.483Z",
+      "updated_at": "2025-09-20T03:36:02.483Z"
+    },
+    {
+      "id": "5575d387-33c7-41a8-86db-c2341b2e5c6f",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Lucas Garcia e Silva",
+      "status": "open",
+      "created_at": "2025-09-20T03:36:05.393Z",
+      "updated_at": "2025-09-20T03:36:05.393Z"
+    }
+  ]
+}
