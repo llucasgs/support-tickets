@@ -2,12 +2,11 @@
   "tickets": [
     {
       "id": "b46c7180-ed51-4b0a-a3e7-c61676567c0f",
-      "equipment": "Computador",
-      "description": "Computador não liga.",
+      "equipment": "Teclado",
       "user_name": "Lucas Garcia e Silva",
       "status": "open",
       "created_at": "2025-09-19T23:14:13.420Z",
-      "updated_at": "2025-09-19T23:14:13.420Z"
+      "updated_at": "2025-09-25T20:22:40.357Z"
     },
     {
       "id": "f1d50133-ff9a-4480-a5fb-a4c7f712f955",

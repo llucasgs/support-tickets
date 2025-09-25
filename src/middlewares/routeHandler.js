@@ -1,6 +1,7 @@
 import { routes } from "../routs/index.js";
 import { Database } from "../database/database.js";
 import { extractQueryParams } from "../utils/extractQueryParams.js";
+import { jsonHandler } from "./jsonHandler.js";
 
 const database = new Database();
 
@@ -14,6 +15,7 @@ export function routHandler(request, response) {
     const { query, ...params } = routeParams.groups;
     request.params = params;
     request.query = query ? extractQueryParams(query) : {};
+
     return route.controller({ request, response, database });
   }
 
